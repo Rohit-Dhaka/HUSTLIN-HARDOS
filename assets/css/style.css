@@ -131,6 +131,99 @@
 
 }
 /* -------------------------------------------border */
+/* -------------------------------------------timeline */
+.timeline {
+    position: relative;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.timeline::after {
+    content: '';    
+    background-image: url(../img/Line81.png);
+    position: absolute;
+    width: 15px;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 0;
+    bottom: 78px;
+    left: 50%;
+    margin-left: -12px;    
+}
+.mycontainer {
+    position: relative;
+    width: 50%;
+}
+.right {
+   padding-left: 75px;
+}
+.left {
+    padding-right: 74px;
+}
+.mycontainer::after {
+    content: url(../img/svg/Vector.svg);        
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 59px;
+    height: 59px;
+    right: -28px;
+    padding-top: 7px;            
+    background-color: var(--white);
+    border: 5px solid var(--black);
+    top: 0;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.left {
+    left: 0;
+    padding-left: 36px;        
+}
+.right {
+    left: 50%;
+
+}
+.right::after {
+    left: -32px;
+}
+
+
+.content {
+    position: relative;
+}
+@media (max-width: 768px) {    
+    .timeline::after {
+        left: 45px;
+        
+    }    
+    .mycontainer {
+        width: 100%;
+        margin-top: 50px;        
+        padding-left: 90px;
+        padding-right: 25px;
+    }    
+    .mycontainer::before {
+        left: 60px;        
+        border: medium solid var(--white);
+        border-width: 10px 10px 10px 0;
+        border-color: transparent var(--white) transparent transparent;
+    }
+      
+    .left::after,
+    .right::after {
+        left: 12px;        
+        
+    }
+    
+    .right {
+        left: 0%;        
+    }
+}
+
+/* -------------------------------------------timeline */
+
 
 
 
@@ -262,7 +355,23 @@
     
 }
 
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+    .mt-112 {
+        margin-top: -112px !important;
+    }
+
+    .mt-82 {
+        margin-top: -82px !important;
+    }
+
+    .mt-16 {
+        margin-top: -16px !important;
+    }
+
+    .mt-25 {
+        margin-top: -25px !important;
+    }
+}
 @media (min-width: 992px) {
     .pt-lg-32 {
         padding-top: 32px !important;
