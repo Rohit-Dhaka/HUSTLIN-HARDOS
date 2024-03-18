@@ -363,7 +363,10 @@ body {
 }
 
 /* ----------------------------underline */
-
+.nav-link:hover{
+    background-color: black;
+    color: white;
+}
 
 .duration-300 {
     transition: all 300ms linear;
