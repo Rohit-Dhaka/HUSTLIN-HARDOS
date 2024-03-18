@@ -101,3 +101,24 @@ $('.tweet-slider').slick({
       }
     ]
   });
+
+  // -----------------------Accordion
+const accordion = document.querySelectorAll(".accordion-item")
+accordion.forEach((e) => {
+    e.addEventListener("click", () => {
+        e.classList.toggle("active");
+        var isactive = document.querySelector(".accordion");
+        accordion.forEach(e => {
+            e.classList.remove("active")
+        })
+        if (!isactive) {
+            e.classList.toggle("active")
+        }
+    })
+})
+
+
+// Get year
+var d = new Date();
+let year = d.getFullYear();
+document.getElementById("year").innerHTML = year
