@@ -110,6 +110,9 @@
     background-color: transparent;
 
 }
+.btn-2 {
+    border-bottom: 1px solid var(--black) !important;
+}
 /* -------------------------------------------btn */
 
 /* -------------------------------------------border */
