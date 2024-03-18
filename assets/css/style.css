@@ -2,22 +2,15 @@
 
 @import url(./root.css); 
 
-
-
 * {
     padding: 0;
-    scroll-behavior: smooth;    
-    /* outline: 1px solid red; */
+    scroll-behavior: smooth;        
     margin: 0;
     list-style: none !important;
     text-decoration: none !important;
     box-sizing: border-box;
-
-
 }
-
-
-
+/* -----------------------------------------font-family */
 @font-face {
     font-family: 'ModernoFBComp';
     src: url(../font/modernofbcomp-semibold.otf);
@@ -28,12 +21,11 @@
 }
 .font-Perpetua{
     font-family: 'PerpetuaTitlingMT';
-
 }
 .font-ModernoFBComp {
     font-family: 'ModernoFBComp';
 }
-
 .font-Noto {
     font-family: "Noto Serif", serif;
 }
+/* -----------------------------------------font-family */
