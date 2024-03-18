@@ -59,6 +59,9 @@
 .gap-18 {
     gap: 18px;
 }
+.gap-55 {
+    gap: 55px;
+}
 .gap-178 {
     gap: 178px;
 }
@@ -142,6 +145,9 @@
 }
 .cursor-pointer {
     cursor: pointer;
+}
+.slider-card {
+    padding: 38px 16px 36px 16px;
 }
 
 
