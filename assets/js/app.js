@@ -138,3 +138,16 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+// -----------Increment and Decrement
+var increment = document.getElementById("increment");
+var decrement = document.getElementById("decrement");
+var counts  =  document.getElementById("count");
+count = 100;
+increment.onclick = function() {
+  count += 1;
+  counts.innerHTML = count;
+}
+decrement.onclick  = function() {
+  count -= 1;
+  counts.innerHTML = count;
+}
