@@ -11,7 +11,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(../img/25th.png);
+    background-image: url(../img/25th.webp);
 }
 /* -----------------------------------------font-family */
 @font-face {
@@ -168,7 +168,7 @@ body{
 }
 .timeline::after {
     content: '';    
-    background-image: url(../img/Line81.png);
+    background-image: url(../img/Line81.webp);
     position: absolute;
     width: 15px;
     background-size: 100% 100%;
@@ -256,7 +256,7 @@ body{
 .team-card {
     padding: 45px 30px;
     height: 361px;
-    background-image: url(../img/bg-card.jpg);
+    background-image: url(../img/bg-card.webp);
     background-position: 100% 100%;
     background-repeat: no-repeat;
     background-size: cover;
