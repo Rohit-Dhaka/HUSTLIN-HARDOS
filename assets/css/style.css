@@ -513,6 +513,11 @@ body{
         margin-top: -25px !important;
     }
 }
+@media (max-width) {
+    .box{
+        overflow-x: scroll;
+    }  
+}
 @media (min-width: 992px) {
     .pt-lg-32 {
         padding-top: 32px !important;
