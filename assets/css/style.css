@@ -10,6 +10,9 @@
     text-decoration: none !important;
     box-sizing: border-box;
 }
+body{
+    background-image: url(../img/25th.png);
+}
 /* -----------------------------------------font-family */
 @font-face {
     font-family: 'ModernoFBComp';
