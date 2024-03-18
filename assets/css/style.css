@@ -245,6 +245,40 @@
 }
 
 /* ------------------------------------------team-slider */
+/* -------------------------------------accordion */
+
+
+.accordion-item {
+    height: 106px;
+    padding: 25px 20px 24px 20px;
+    overflow: hidden;
+}
+.pt-43{
+    padding-top: 43px;
+}
+
+.accordion-item.active {
+    height: unset;
+    transition: all 500ms linear;
+
+}
+.minus{
+    display: none;
+}
+
+.accordion-item.active {
+    .minus{
+        display: block;
+    }
+    .pulse{
+        display: none;
+    }
+}
+.accordion-item.active .accordion-contant{
+    padding-top: 16px;
+}
+
+/* -------------------------------------accordion */
 
 
 
