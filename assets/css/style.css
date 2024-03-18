@@ -223,6 +223,26 @@
 }
 
 /* -------------------------------------------timeline */
+/* ------------------------------------------team-slider */
+.team-card {
+    padding: 45px 30px;
+    height: 361px;
+}
+
+.team-slider .slick-current .team-card h4 {
+    color: var(--active-gray);
+}
+
+.team-slider .slick-list .slick-track {
+    display: flex !important;
+}
+
+.slick-slide {
+    height: inherit !important;
+}
+
+/* ------------------------------------------team-slider */
+
 
 
 
