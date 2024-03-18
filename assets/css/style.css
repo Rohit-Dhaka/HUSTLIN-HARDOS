@@ -352,6 +352,20 @@
 .heading-shadow {
     filter: drop-shadow(2px 2px 4px #00000040);        
 }
+.nav-link {    
+    text-transform: uppercase;
+}
+.red-border {
+    padding: 3px 4px;
+    border: 1px solid var(--red);
+    border-radius: 5px;
+}
+
+.yellow-border {
+    padding: 3px 4px;
+    border: 1px solid var(--yellow);
+    border-radius: 5px;
+}
 
 
 
