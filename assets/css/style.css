@@ -298,7 +298,26 @@
     border-radius: 4px;
   }
 /* -------------------------------------go to top */
+/* ----------------------------underline */
+.underline::after {
+    position: absolute;
+    content: '';
+    height: 1px;
+    width: 0;
+    display: inline-block;
+    bottom: -2px;
+    right: 0;
+    margin: 0 auto;
+    left: 0;
+    transition: all 300ms linear;
+    background-color: var(--black);
+}
 
+.underline:hover::after {
+    width: 100%;
+}
+
+/* ----------------------------underline */
 
 
 
@@ -327,7 +346,12 @@
 .slider-card {
     padding: 38px 16px 36px 16px;
 }
-
+.h-64{
+    height: 64px;
+}
+.heading-shadow {
+    filter: drop-shadow(2px 2px 4px #00000040);        
+}
 
 
 
