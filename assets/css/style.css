@@ -279,6 +279,26 @@
 }
 
 /* -------------------------------------accordion */
+/* -------------------------------------go to top */
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 10;
+    font-size: 18px;
+    border: none;    
+    outline: none;
+    background-image: url(../img/25th.png);
+    color: var(--black);
+    border: 2px solid var(--black);
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 4px;
+  }
+/* -------------------------------------go to top */
+
 
 
 
