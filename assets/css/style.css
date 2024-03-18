@@ -34,11 +34,20 @@
 .py-21 {
     padding: 21px 0;
 }
+.pt-10 {
+    padding-top: 10px;
+}
+.pt-12 {
+    padding-top: 12px;
+}
 .pt-13 {
     padding-top: 13px;
 }
 .pt-25 {
     padding-top: 25px;
+}
+.pt-36 {
+    padding-top: 36px;
 }
 
 .pb-14 {
@@ -46,6 +55,9 @@
 }
 .pb-15 {
     padding-bottom: 15px;
+}
+.pb-100{
+    padding-bottom: 100px;
 }
 /* -----------------------------------------padding */
 
@@ -77,13 +89,24 @@
 
 
 /* ----------------------------------------margin */
+.mt-15 {
+    margin-top: 15px;
+}
+.mt-17 {
+    margin-top: 17px;
+}
+.mt-35 {
+    margin-top: 35px;
+}
 .mx-31 {
     margin: 0 31px;
 }
 /* ----------------------------------------margin */
 
 /* -----------------------------------------width */
-
+.max-w-407 {
+    max-width: 407px;
+}
 .max-w-1140 {
     max-width: 1140px;
 }
