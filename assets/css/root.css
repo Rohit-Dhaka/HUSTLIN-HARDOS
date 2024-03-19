@@ -27,7 +27,7 @@
     --yellow: #FFD600;
     --black: #000000;
     --green: #00A106;
-    /* --team-card-bg: #D1C9C2; */
+
     --gray: #A59A90;
     --active-gray: #70675F;
     --white: white;
@@ -38,9 +38,6 @@
     color: var(--gray);
 }
 
-/* .team-card-bg{
-    background-color: var(--team-card-bg);
-} */
 .color-green {
     color: var(--green);
 }

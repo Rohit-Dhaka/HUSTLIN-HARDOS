@@ -266,7 +266,7 @@ body {
 .team-card {
     padding: 45px 30px;
     height: 361px;
-    background-image: url(../img/bg-card.webp);
+    background-image: url(../img/card-bg.png);
     background-position: 100% 100%;
     background-repeat: no-repeat;
     background-size: cover;
