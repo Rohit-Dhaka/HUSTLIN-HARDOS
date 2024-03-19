@@ -364,8 +364,8 @@ body {
 
 /* ----------------------------underline */
 .nav-link:hover{
-    background-color: black;
-    color: white;
+    background-color: var(--black);
+    color: var(--white);
 }
 
 .duration-300 {
