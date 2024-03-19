@@ -20,7 +20,7 @@
     --line-height-49: 49px;
     --line-height-83: 53px;
     --line-height-100: 44px;
-    --line-height-188: 55px;
+    --line-height-188: 55px;    
 
 
     --red: #FF0000;
@@ -154,8 +154,7 @@
         --line-height-49: 49px;
         --line-height-83: 60px;
         --line-height-100: 60px;
-        --line-height-188: 80px;
-
+        --line-height-188: 80px;        
     }
 }
 
@@ -182,7 +181,7 @@
         --line-height-49: 49px;
         --line-height-83: 60px;
         --line-height-100: 65px;
-        --line-height-188: 120px;
+        --line-height-188: 120px;        
 
     }
 }
@@ -210,7 +209,7 @@
         --line-height-49: 49px;
         --line-height-83: 78px;
         --line-height-100: 80px;
-        --line-height-188: 150px;
+        --line-height-188: 150px;        
 
     }
 }

@@ -305,7 +305,8 @@ body {
 }
 .accordion-item{
     background-color: transparent;
-    border: 0px;
+    border: 0px;    
+    padding: 12px 34px 14px 20px;    
 }
 .accordion {
     --bs-accordion-btn-focus-box-shadow:0px 0px ;
