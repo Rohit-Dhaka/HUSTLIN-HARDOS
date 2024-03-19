@@ -287,41 +287,30 @@ body {
 /* ------------------------------------------team-slider */
 /* -------------------------------------accordion */
 
-
-.accordion-item {
-    height: 106px;
-    padding: 25px 20px 24px 20px;
-    overflow: hidden;
+.accordion-button::after {
+   background-image: url(../img/svg/pulse.svg);
+    transform: scale(.7) !important;
 }
-
-.pt-43 {
-    padding-top: 43px;
+.accordion-button:not(.collapsed)::after {
+    background-image: url(../img/svg/minus.svg);
 }
-
-.accordion-item.active {
-    height: unset;
-    transition: all 500ms linear;
+.accordion-button:not(.collapsed){
+    background: transparent;
+    box-shadow: 0px 0px;
+    color: var(--black);
+}
+.accordion-button{
+    background: transparent;
+    box-shadow: 0px 0px;
+}
+.accordion-item{
+    background-color: transparent;
+    border: 0px;
+}
+.accordion {
+    --bs-accordion-btn-focus-box-shadow:0px 0px ;
 
 }
-
-.minus {
-    display: none;
-}
-
-.accordion-item.active {
-    .minus {
-        display: block;
-    }
-
-    .pulse {
-        display: none;
-    }
-}
-
-.accordion-item.active .accordion-contant {
-    padding-top: 16px;
-}
-
 /* -------------------------------------accordion */
 /* -------------------------------------go to top */
 
@@ -390,6 +379,9 @@ body {
 
 .heading-shadow {
     filter: drop-shadow(2px 2px 4px #00000040);
+}
+.inner-shadow{
+
 }
 
 .nav-link {
